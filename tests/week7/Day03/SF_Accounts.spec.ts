@@ -4,7 +4,7 @@ import { customFixture } from "./CustomFixture";
 customFixture("Click Accounts",async({salesForceLogin})=>{
 
     //change custom fixture to storage state
-
+//changed storage state
     const title= await salesForceLogin.title()
     console.log(title)
 
